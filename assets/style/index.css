@@ -35,9 +35,8 @@ input[type=text] {
   margin-top: 8px;
   width: 120px;
   height: 42px;
-  border-radius: 15px;
   margin-bottom: 14px;
-  padding: 0 15px;
+  padding: 0 10px;
   background-color: #222;
   font-size: 20px;
   text-align: left;
