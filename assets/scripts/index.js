@@ -41,7 +41,7 @@ function formatTime(time) {
 
 function setAlarm(){
   let time = set.value.trim();
-  if (time.includes(':')) {
+  if (time.length == 5 && time.includes(':')) {
     let formatHour = time.substring(0, 2);
     let formatMinute = time.substring(3, 5);
     time =formatHour.concat(formatMinute);
